@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.nav-part {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(49, 49, 119);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.img1 {
+    width: 108px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.img2 {
+    width: 70%;
+    position: absolute;
+    left: 30%;
+    top: -5%;
+}
+
+.img3 {
+    position: absolute;
+    left: -2%;
+    top: 30%;
+}
+
+.img4 {
+    position: absolute;
+    left: -1%;
+    top: 4%;
+    width: 20%;
+}
+
+.img5 {
+    position: absolute;
+    left: 85%;
+    top: 4%;
+    height: 15%;
+    width: 15%;
+}
+
+.img6 {
+    position: absolute;
+    left: 44%;
+    top: 6%;
+    z-index: 1;
+}
+
+.img7 {
+    position: absolute;
+    left: 71%;
+    top: 32%;
+}
+
+.img8 {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.leafline {
+    position: absolute;
+    left: 95.1%;
+    top: 8%;
+    z-index: 1;
+}
+
+.nav-part ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-part ul li {
+    margin-right: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.active {
+    font-weight: 700 !important;
+}
+
+
+.blog-h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    left: 44%;
+    top: 30%;
+}
+
+.dots-container {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 85%;
+    top: 44%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4DF8F9;
+    border-radius: 50%;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.top-content {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    gap: 40px;
+}
+
+.bottom-content {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+.product {
+    height: 500px;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(199, 172, 199, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.product img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: -25%;
+}
+
+.product h6 {
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 35%;
+    font-weight: 500;
+    align-items: center;
+}
+
+.product p {
+    font-size: 18px;
+    position: absolute;
+    bottom: 11%;
+}
+
+button {
+    font-size: 15px;
+    border: none;
+    color: purple;
+    padding: 5px;
+    position: absolute;
+    bottom: 2%;
+    cursor: pointer;
+}
+
+.product-text {
+    width: 90%;
+    margin: auto;
+}
+
+.clients-flex {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.clients img {
+    width: 9vw;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.sec1 {
+    background-image: url(images/dotted.png);
+    width: 100%;
+    height: 50vh;
+}
+
+form {
+    background-color: #fff;
+    width: 40vw;
+    height: 30vh;
+    margin: auto;
+}
+
+#fname, #email{
+    margin-left: 65px;
+    margin-top: 40px;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    width: 35%;
+}
+
+
+#text {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 65px;
+    height: 10vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+}
+
+input[type=button] {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(49, 49, 119);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 30vh;
+}
+
+.main-footer {
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.main-footer ul {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.mmail {
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mail {
+    font-size: 20px;
+    color: aliceblue;
+}
